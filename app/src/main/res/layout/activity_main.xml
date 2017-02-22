@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="cn.labmen.myappportfolio.MainActivity">
+
+        <TextView
+            style="@style/AppTitle"
+            android:text="@string/my_nano_degree_apps" />
+
+        <Button
+            android:id="@+id/spotify_streamer"
+            style="@style/AppTextStyle"
+            android:text="@string/spotify_streamer" />
+
+        <Button
+            android:id="@+id/scores_app"
+            style="@style/AppTextStyle"
+            android:text="@string/scores_app" />
+
+        <Button
+            android:id="@+id/library_app"
+            style="@style/AppTextStyle"
+            android:text="@string/library_app" />
+
+        <Button
+            android:id="@+id/xyz_reader"
+            style="@style/AppTextStyle"
+            android:text="@string/xyz_reader" />
+
+        <Button
+            android:id="@+id/build_it_bigger"
+            style="@style/AppTextStyle"
+            android:text="@string/build_it_bigger" />
+
+        <Button
+            android:id="@+id/graduation_project"
+            style="@style/graduation_project"
+            android:text="@string/graduation_project" />
+    </LinearLayout>
+</ScrollView>
